@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #fdfdfd;
+  color: #333;
+}
+
+header {
+  background: #4CAF50;   /* Green */
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+#about {
+  background: #E3F2FD;   /* Light Blue */
+}
+
+#skills {
+  background: #FFF9C4;   /* Light Yellow */
+}
+
+#projects {
+  background: #FFEBEE;   /* Light Pink */
+}
+
+#contact {
+  background: #E8F5E9;   /* Light Green */
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+ul {
+  list-style: none;
+}
+
+.project-card {
+  background: #fff;
+  margin: 15px auto;
+  padding: 20px;
+  width: 80%;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+
+form input, form textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border: 2px solid #4CAF50;
+  border-radius: 5px;
+}
+
+form button {
+  background: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+form button:hover {
+  background: #388E3C;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
